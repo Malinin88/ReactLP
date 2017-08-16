@@ -7,73 +7,87 @@
         <link rel="stylesheet" href="components/header/header.css"/>
         <link rel="stylesheet" href="components/button/button.css"/>
         <link rel="stylesheet" href="components/select/select.css"/>
+        <link rel="stylesheet" href="components/radioButton/radioButton.css"/>
     </head>
     <body>
         <div id="app">
             <div id="header" class="header">
-                <img src="components/header/cart.png" alt="cart" class="cart-icon"/>
+                <img src="components/header/logo.svg" alt="cart" class="cart-icon"/>
                 <div class="username-container">
                     <span>Hello, John Doe</span>
-                    <img src="components/header/exit.png" class="exit-icon" alt="exit"/>
+                    <img src="components/header/header-logout.svg" class="exit-icon" alt="exit"/>
                 </div>
             </div>
 
-            <br/>
+            <div class="content">
+                <br/>
 
-            <button class="button button-primary">Show more</button>
+                <input type="radio" id="radio1"/>
+                <label for="radio1">Unchecked</label>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button button-primary" disabled>Show more</button>
+                <button class="button button-primary">Show more</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button">Show more</button>
+                <button class="button button-primary" disabled>Show more</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button" disabled>Show more</button>
+                <button class="button">Show more</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button button-primary button-big">Submit</button>
+                <button class="button" disabled>Show more</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button button-primary button-big" disabled>Submit</button>
+                <button class="button button-primary button-big">Submit</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button button-big">Cancel</button>
+                <button class="button button-primary button-big" disabled>Submit</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <button class="button button-big" disabled>Cancel</button>
+                <button class="button button-big">Cancel</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <select class="select" name="" id="">
-                <option value="0"></option>
-                <option value="1">Active wear</option>
-                <option value="2">Other</option>
-            </select>
+                <button class="button button-big" disabled>Cancel</button>
 
-            <br/>
-            <br/>
+                <br/>
+                <br/>
 
-            <select class="select select-green" name="" id="">
-                <option value="0"></option>
-                <option value="1">Active wear</option>
-                <option value="2">Other</option>
-            </select>
+                <select class="select">
+                    <option value="0"></option>
+                    <option value="1">Active wear</option>
+                    <option value="2">Other</option>
+                </select>
+
+                <br/>
+                <br/>
+
+                <select class="select select-green">
+                    <option value="0"></option>
+                    <option value="1">Active wear</option>
+                    <option value="2">Other</option>
+                </select>
+
+                <br/>
+                <br/>
+
+
+            </div>
         </div>
     </body>
 </html>

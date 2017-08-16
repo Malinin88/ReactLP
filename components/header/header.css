@@ -1,26 +1,26 @@
-.header{
+.header {
     width: 100%;
-    padding: 8px 10px;
+    padding: 8px 153px;
     color: #fff;
     height: 45px;
     background: linear-gradient(180deg, #449587 0%, #2A8676 100%);
     box-shadow: 0 3px 0 0 rgba(92, 186, 150, 0.5);
 }
 
-.header .cart-icon{
+.header .cart-icon {
     display: inline-block;
     height: 30px;
     cursor: pointer;
 }
 
-.header .username-container{
+.header .username-container {
     display: inline-block;
     float: right;
     font-size: 15px;
     font-family: "PT Sans", serif;
 }
 
-.header .username-container .exit-icon{
+.header .username-container .exit-icon {
     display: inline-block;
     height: 30px;
     cursor: pointer;
