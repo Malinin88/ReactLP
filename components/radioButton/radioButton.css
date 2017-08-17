@@ -1,8 +1,8 @@
-input[type="radio"] {
+input[type="radio"].radio-button {
     display: none;
 }
 
-input[type="radio"] + label {
+input[type="radio"].radio-button + label {
     font-family: "PT Sans", serif;
     font-size: 14px;
     position: relative;
@@ -12,11 +12,11 @@ input[type="radio"] + label {
     display: inline-block;
 }
 
-input[type="radio"]:checked + label {
+input[type="radio"].radio-button:checked + label {
     color: #288575;
 }
 
-input[type="radio"] + label:before {
+input[type="radio"].radio-button + label:before {
     content: '';
     position: absolute;
     left: 0;
@@ -28,7 +28,7 @@ input[type="radio"] + label:before {
     background: transparent;
 }
 
-input[type="radio"] + label:after {
+input[type="radio"].radio-button + label:after {
     content: '';
     width: 22px;
     height: 22px;
@@ -41,13 +41,13 @@ input[type="radio"] + label:after {
     transition: all 0.2s ease;
 }
 
-[type="radio"]:not(:checked) + label:after {
+input[type="radio"].radio-button:not(:checked) + label:after {
     opacity: 0;
     -webkit-transform: scale(0);
     transform: scale(0);
 }
 
-[type="radio"]:checked + label:after {
+input[type="radio"].radio-button:checked + label:after {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
