@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="components/select/select.css"/>
         <link rel="stylesheet" href="components/radioButton/radioButton.css"/>
         <link rel="stylesheet" href="components/checkbox/checkbox.css"/>
+        <link rel="stylesheet" href="components/textInput/textInput.css"/>
     </head>
     <body>
         <div id="app">
@@ -23,13 +24,30 @@
             <div class="content">
                 <br/>
 
-                <input type="checkbox" id="checkbox1"/>
+                <div class="text-input-container">
+                    <label for="text1">Input:</label>
+                    <input type="text" id="text1" placeholder="Filter by text..."/>
+                </div>
+
+                <br/>
+                <br/>
+
+                <div class="text-input-container">
+                    <label for="text2">Textarea:</label>
+                    <textarea  cols="30" rows="5" id="text2" placeholder="Filter by text..."></textarea>
+                </div>
+
+
+                <br/>
+                <br/>
+
+                <input type="checkbox" id="checkbox1" class="checkbox-switch"/>
                 <label for="checkbox1">Checkbox</label>
 
                 <br/>
                 <br/>
 
-                <input type="radio" id="radio1"/>
+                <input type="radio" id="radio1" class="radio-button"/>
                 <label for="radio1">Unchecked</label>
 
                 <br/>
