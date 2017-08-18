@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="components/radioButton/radioButton.css"/>
         <link rel="stylesheet" href="components/checkbox/checkbox.css"/>
         <link rel="stylesheet" href="components/textInput/textInput.css"/>
+        <link rel="stylesheet" href="components/slider/slider.css"/>
     </head>
     <body>
         <div id="app">
@@ -24,19 +25,51 @@
             <div class="content">
                 <br/>
 
-                <div class="text-input-container">
-                    <label for="text1">Input:</label>
-                    <input type="text" id="text1" placeholder="Filter by text..."/>
+                <div class="slider">
+                    <div class="slider-bar slider-bar-left"></div>
+                    <div class="slider-bar slider-bar-active slider-bar-middle"></div>
+                    <div class="slider-bar slider-bar-right"></div>
+                    <div class="slider-button slider-button-left">
+                        <span>50</span>
+                    </div>
+                    <div class="slider-button slider-button-right">
+                        <span>250</span>
+                    </div>
                 </div>
 
                 <br/>
                 <br/>
 
-                <div class="text-input-container">
-                    <label for="text2">Textarea:</label>
-                    <textarea  cols="30" rows="5" id="text2" placeholder="Filter by text..."></textarea>
-                </div>
+                <form action="#">
+                    <div class="text-input-container">
+                        <label for="text1">Input:</label>
+                        <input type="text" id="text1" placeholder="Filter by text..."/>
+                    </div>
 
+                    <br/>
+                    <br/>
+
+                    <div class="text-input-container">
+                        <label for="text2">Textarea:</label>
+                        <textarea  cols="30" rows="5" id="text2" placeholder="Filter by text..."></textarea>
+                    </div>
+
+                    <br/>
+                    <br/>
+
+                    <div class="text-input-container">
+                        <label for="text3">Input:</label>
+                        <input type="text" id="text3" placeholder="Filter by text..." required/>
+                    </div>
+
+                    <br/>
+                    <br/>
+
+                    <div class="text-input-container">
+                        <label for="text4">Textarea:</label>
+                        <textarea  cols="30" rows="5" id="text4" placeholder="Filter by text..." required></textarea>
+                    </div>
+                </form>
 
                 <br/>
                 <br/>
