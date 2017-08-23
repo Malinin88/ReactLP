@@ -1,0 +1,33 @@
+.modal {
+    position: relative;
+    padding-top: 70px;
+    height: 400px;
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    background-color: #e3e3e3;
+}
+
+.modal-header {
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+    font-family: "PT Sans Caption", serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.modal-body {
+    border-radius: 0 0 15px 15px;
+    height: 100%;
+    padding: 30px 60px;
+}

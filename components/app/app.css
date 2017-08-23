@@ -1,20 +1,21 @@
 * {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #app{
     min-height: 100vh;
-    width: 100%;
     min-width: 480px;
     background-color: #f4f4f6;
     font-family: Sans-serif, serif;
 }
 
 #app .content{
-    width: 1000px;
+    position: relative;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: rgba(0,0,0,0.35);
+    background-color: rgba(0, 0, 0, 0.16);
+    min-height: 100vh;
 }
