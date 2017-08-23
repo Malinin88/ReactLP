@@ -11,14 +11,18 @@
         <link rel="stylesheet" href="components/checkbox/checkbox.css"/>
         <link rel="stylesheet" href="components/textInput/textInput.css"/>
         <link rel="stylesheet" href="components/slider/slider.css"/>
+        <link rel="stylesheet" href="components/filterPopup/filterPopup.css"/>
     </head>
     <body>
         <div id="app">
             <div id="header" class="header">
-                <img src="components/header/logo.svg" alt="cart" class="cart-icon"/>
-                <div class="username-container">
-                    <span>Hello, John Doe</span>
-                    <img src="components/header/header-logout.svg" class="exit-icon" alt="exit"/>
+                <div class="centered-bar">
+                    <img src="components/header/logo.svg" alt="cart" class="cart-icon"/>
+                    <div class="username-container">
+                        <span>Hello, John Doe</span>
+                        <img src="components/header/header-logout.svg" class="exit-icon" alt="exit"/>
+                    </div>
+                    <span style="clear: both"></span>
                 </div>
             </div>
 
@@ -51,7 +55,7 @@
 
                     <div class="text-input-container">
                         <label for="text2">Textarea:</label>
-                        <textarea  cols="30" rows="5" id="text2" placeholder="Filter by text..."></textarea>
+                        <textarea cols="30" rows="5" id="text2" placeholder="Filter by text..."></textarea>
                     </div>
 
                     <br/>
@@ -67,7 +71,7 @@
 
                     <div class="text-input-container">
                         <label for="text4">Textarea:</label>
-                        <textarea  cols="30" rows="5" id="text4" placeholder="Filter by text..." required></textarea>
+                        <textarea cols="30" rows="5" id="text4" placeholder="Filter by text..." required></textarea>
                     </div>
                 </form>
 
@@ -144,6 +148,92 @@
                 <br/>
                 <br/>
 
+                <button class="button button-primary">Show menu</button>
+
+
+                <div class="filter-popup">
+                    <div class="arrow-pointer"></div>
+                    <div class="filter-row-top">
+                        <div class="labeled-filter">
+                            <div class="label-container">
+                                <span>Availability:</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="available-only" class="checkbox-switch"/>
+                                <label for="available-only">Available Only</label>
+                            </div>
+                        </div>
+                        <div class="labeled-filter">
+                            <div class="label-container">
+                                <span>Gender:</span>
+                            </div>
+                            <div>
+                                <input type="radio" id="male" name="male" value="male" class="radio-button"/>
+                                <label for="male">Man</label>
+                                <input type="radio" id="female" class="radio-button"/>
+                                <label for="female" name="female" value="female">Woman</label>
+                                <input type="radio" id="unisex" name="unisex" value="unisex" class="radio-button"/>
+                                <label for="unisex">Unisex</label>
+                            </div>
+                        </div>
+                        <div class="labeled-filter">
+                            <div class="label-container">
+                                <span>Category:</span>
+                            </div>
+                            <div>
+                                <select class="select select-green">
+                                    <option value="0"></option>
+                                    <option value="1">Active wear</option>
+                                    <option value="2">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-row-separator"></div>
+                    <div class="filter-row-bottom">
+                        <div class="labeled-filter">
+                            <div class="label-container">
+                                <span>Rating:</span>
+                            </div>
+                            <div>
+                                <div class="slider">
+                                    <div class="slider-bar slider-bar-left"></div>
+                                    <div class="slider-bar slider-bar-active slider-bar-middle"></div>
+                                    <div class="slider-bar slider-bar-right"></div>
+                                    <div class="slider-button slider-button-left">
+                                        <span>50</span>
+                                    </div>
+                                    <div class="slider-button slider-button-right">
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="labeled-filter">
+                            <div class="label-container">
+                                <span>Price:</span>
+                            </div>
+                            <div>
+                                <div class="slider">
+                                    <div class="slider-bar slider-bar-left"></div>
+                                    <div class="slider-bar slider-bar-active slider-bar-middle"></div>
+                                    <div class="slider-bar slider-bar-right"></div>
+                                    <div class="slider-button slider-button-left">
+                                        <span>50</span>
+                                    </div>
+                                    <div class="slider-button slider-button-right">
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
             </div>
         </div>
