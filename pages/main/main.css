@@ -1,7 +1,7 @@
 .main .filter-bar {
     height: 55px;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 22px;
 }
 
 .main .filter-bar * {
@@ -35,8 +35,8 @@
 }
 
 .main .filter-popup {
-    top: 65px;
-    right: 31px;
+    top: 66px;
+    right: 25px;
     z-index: 10;
 }
 
