@@ -32,7 +32,7 @@
     display: inline-block;
 }
 
-.filter-popup .labeled-filter:not(:last-child){
+.filter-popup .labeled-filter:not(:last-child) {
     margin-right: 30px;
 }
 
