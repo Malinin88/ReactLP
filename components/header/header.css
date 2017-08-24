@@ -1,6 +1,8 @@
 .header {
     min-width: 480px;
-    padding: 8px 0;
+    max-width: 1200px;
+    padding: 8px 20px;
+    margin: 0 auto;
     color: #fff;
     height: 45px;
     background: linear-gradient(180deg, #449587 0%, #2A8676 100%);
