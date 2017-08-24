@@ -1,6 +1,6 @@
 .rating-bar {
     height: 30px;
-    width: 360px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 6px 22px;
 }

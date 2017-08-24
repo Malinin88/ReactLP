@@ -4,18 +4,28 @@
     box-sizing: border-box;
 }
 
-#app{
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+#app {
     min-height: 100vh;
     min-width: 480px;
     background-color: #f4f4f6;
     font-family: Sans-serif, serif;
+    position: relative;
 }
 
-#app .content{
-    position: relative;
-    max-width: 1000px;
+#app .content {
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
     background-color: rgba(0, 0, 0, 0.16);
     min-height: 100vh;
+    width: 100%;
+    position: relative;
 }

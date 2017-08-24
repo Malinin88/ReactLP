@@ -1,0 +1,42 @@
+.main .filter-bar {
+    height: 55px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.main .filter-bar * {
+    float: right;
+    margin-left: 15px;
+}
+
+.main .filter-bar .text-filter {
+    background: #ffffff url(search.svg) no-repeat calc(100% - 10px);
+    background-size: 10%;
+}
+
+.main .filter-bar button {
+    width: 140px;
+}
+
+.main .product-row {
+    margin-top: 30px;
+}
+
+.main .product-row .product-card {
+    display: inline-block;
+}
+
+.main .product-row .product-card:not(:first-child) {
+    margin-left: 25px;
+}
+
+.main .filter-popup {
+    top: 65px;
+    right: 31px;
+    z-index: 10;
+}
+
+.main .filter-popup .arrow-pointer {
+    left: 425px;
+}
+

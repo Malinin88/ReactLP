@@ -4,8 +4,8 @@
     border-radius: 15px;
     background-color: #FFFFFF;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 1252px;
     padding: 15px 24px 0 24px;
 }
 
