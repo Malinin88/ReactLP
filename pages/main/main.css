@@ -18,19 +18,24 @@
     width: 140px;
 }
 
-.main .product-row {
-    margin-top: 30px;
+.main .product-container {
+    margin-top: 10px;
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.main .product-row:last-child {
+.main .product-container .product-card {
+    display: inline-block;
+    width: 32%;
+}
+
+.main .product-container:last-child {
     padding-bottom: 70px;
 }
 
-.main .product-row .product-card:not(:first-child) {
-    margin-left: 25px;
+.main .product-container .product-card {
+    margin-top: 25px;
 }
 
 .main .filter-popup {
@@ -41,5 +46,11 @@
 
 .main .filter-popup .arrow-pointer {
     left: 420px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .main .product-container .product-card {
+        width: 48%;
+    }
 }
 
