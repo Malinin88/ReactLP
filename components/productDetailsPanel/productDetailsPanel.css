@@ -1,7 +1,7 @@
 .product-details-panel {
-    height: 220px;
+    min-height: 220px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 20px 65px 20px;
     background-color: inherit;
 }
 
@@ -19,7 +19,7 @@
 .product-details-panel .product-description {
     width: 100%;
     margin-top: 10px;
-    height: 100px;
+    min-height: 100px;
     text-align: justify;
     overflow: hidden;
     color: #000000;
@@ -30,17 +30,20 @@
 .product-details-panel .product-details-footer {
     line-height: 35px;
     width: 100%;
-    position: relative;
-    margin-top: 8px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .product-details-panel .product-details-footer button {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 35px;
+    top: 5px;
 }
 
 .product-details-panel .product-details-footer .price-label {
+    display: inline-block;
+    padding-top: 5px;
+    height: 35px;
     color: #000000;
     font-family: "PT Sans", serif;
     font-size: 0; /*hack to remove a space between child spans*/

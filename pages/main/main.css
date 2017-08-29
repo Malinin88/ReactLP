@@ -20,14 +20,13 @@
 
 .main .product-row {
     margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
 }
 
 .main .product-row:last-child {
     padding-bottom: 70px;
-}
-
-.main .product-row .product-card {
-    display: inline-block;
 }
 
 .main .product-row .product-card:not(:first-child) {
@@ -36,11 +35,11 @@
 
 .main .filter-popup {
     top: 66px;
-    right: 25px;
+    right: 23px;
     z-index: 10;
 }
 
 .main .filter-popup .arrow-pointer {
-    left: 425px;
+    left: 420px;
 }
 
