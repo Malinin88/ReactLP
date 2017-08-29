@@ -54,3 +54,15 @@
     }
 }
 
+@media (max-width: 800px) {
+    .main .product-container .product-card {
+        width: auto;
+        align-self: stretch;
+    }
+
+    .main .filter-bar button {
+        float: left;
+        margin: 0;
+    }
+}
+
