@@ -1,7 +1,7 @@
 .button {
     display: inline-block;
     height: 35px;
-    width: 120px;
+    min-width: 120px;
     border-width: 0;
     border-radius: 5px;
     color: #fff;
@@ -35,7 +35,7 @@
 
 .button-big {
     height: 50px;
-    width: 170px;
+    min-width: 170px;
     font-family: "PT Sans Caption", serif;
     font-size: 18px;
     font-weight: bold;

@@ -6,9 +6,9 @@
 }
 
 .product-details-panel .product-title {
-    height: 50px;
+    min-height: 50px;
     width: 100%;
-    padding: 15px 0;
+    padding: 15px 0 10px 0;
     border-bottom: 2px solid #3FC5CB;
     color: #000000;
     font-family: "PT Sans", serif;
@@ -56,4 +56,11 @@
 
 .product-details-panel .product-details-footer .price-label .currency-label {
     color: #288575;
+}
+
+.product-details-panel .product-details-footer .items-left-label {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: 5%;
+    margin-left: 5px;
 }

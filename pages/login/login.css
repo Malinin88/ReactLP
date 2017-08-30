@@ -1,3 +1,7 @@
+.login {
+    top: 0;
+}
+
 .login .text-input-container {
     width: 100%;
     margin-bottom: 25px;
@@ -31,9 +35,4 @@
 
 .login .text-input-container input.input-password:focus {
     background-image: url(password-active.svg);
-}
-
-.login .button-container {
-    width: 100%;
-    text-align: right;
 }

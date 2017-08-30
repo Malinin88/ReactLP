@@ -30,10 +30,6 @@
     width: 32%;
 }
 
-.main .product-container:last-child {
-    padding-bottom: 70px;
-}
-
 .main .product-container .product-card {
     margin-top: 25px;
 }
