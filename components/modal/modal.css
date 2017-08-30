@@ -53,6 +53,12 @@
     margin-top: 20px;
 }
 
+@media (max-width: 800px) {
+    .modal-body .button-container {
+        text-align: center;
+    }
+}
+
 @media (max-width: 600px) {
     .modal-body {
         padding: 30px 20px;
