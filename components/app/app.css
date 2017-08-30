@@ -5,11 +5,11 @@
 }
 
 html {
-    min-height: 100vh;
+    position: relative;
 }
 
 #app {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     min-width: 480px;
     background-color: #f4f4f6;
     font-family: Sans-serif, serif;
@@ -27,11 +27,14 @@ html {
     position: relative;
 }
 
-#app #blur-overlay.active {
+#app #blured-container.active {
+    filter: blur(3px);
+}
+
+#app #overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    filter: blur(3px);
 }
