@@ -85,11 +85,11 @@
     top: 15px;
 }
 
-.product-customer .modal {
+.product .modal {
     width: 740px;
 }
 
-.product-customer .modal.edit-modal{
+.product .modal.edit-modal{
     top: -30px;
 }
 
@@ -124,12 +124,12 @@
         width: calc(100% - 40px);
     }
 
-    .product-customer .modal {
+    .product .modal {
         width: calc(100% - 60px);
     }
 
 
-    .product-customer .modal.edit-modal{
+    .product .modal.edit-modal{
         top: -155px;
     }
 }
