@@ -26,6 +26,7 @@
     width: 100%;
     background-color: #f4f4f6;
     font-size: 0;
+    margin-bottom: 400px;
 }
 
 .product-card-detailed .picture-container,
@@ -88,6 +89,10 @@
     width: 740px;
 }
 
+.product-customer .modal.edit-modal{
+    top: -30px;
+}
+
 @media (min-width: 800px) {
     .product-card-detailed .details-container .product-details-panel {
         padding-left: 0;
@@ -121,5 +126,10 @@
 
     .product-customer .modal {
         width: calc(100% - 60px);
+    }
+
+
+    .product-customer .modal.edit-modal{
+        top: -155px;
     }
 }
