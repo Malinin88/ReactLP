@@ -9,7 +9,6 @@ html {
 }
 
 #app {
-    /*min-height: 100vh;*/
     min-width: 480px;
     background-color: #f4f4f6;
     font-family: Sans-serif, serif;
